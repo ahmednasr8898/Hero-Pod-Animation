@@ -88,19 +88,35 @@
 		79AC28602595550D00F48148 /* HeroPodAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				79AC288925956D5A00F48148 /* CollectionView */,
+				79AC288825956D4400F48148 /* SimpleViewController */,
 				79AC28612595550D00F48148 /* AppDelegate.swift */,
 				79AC28632595550D00F48148 /* SceneDelegate.swift */,
-				79AC28652595550D00F48148 /* ViewController.swift */,
-				79AC287B2595581500F48148 /* SecondViewController.swift */,
 				79AC28672595550D00F48148 /* Main.storyboard */,
-				79AC287F2595643000F48148 /* photosViewController.swift */,
-				79AC28852595679F00F48148 /* SecondPhotosViewController.swift */,
-				79AC28822595647000F48148 /* CollectionViewCell.swift */,
 				79AC286A2595551600F48148 /* Assets.xcassets */,
 				79AC286C2595551600F48148 /* LaunchScreen.storyboard */,
 				79AC286F2595551600F48148 /* Info.plist */,
 			);
 			path = HeroPodAnimation;
+			sourceTree = "<group>";
+		};
+		79AC288825956D4400F48148 /* SimpleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79AC28652595550D00F48148 /* ViewController.swift */,
+				79AC287B2595581500F48148 /* SecondViewController.swift */,
+			);
+			path = SimpleViewController;
+			sourceTree = "<group>";
+		};
+		79AC288925956D5A00F48148 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				79AC287F2595643000F48148 /* photosViewController.swift */,
+				79AC28822595647000F48148 /* CollectionViewCell.swift */,
+				79AC28852595679F00F48148 /* SecondPhotosViewController.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
